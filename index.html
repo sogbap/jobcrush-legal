@@ -113,6 +113,7 @@ consultation ne transmet aucune donnée vous concernant.</p>
 <ul>
   <li><strong>Tant que votre compte existe</strong>, pour les données de profil, de recherche et de conversation.</li>
   <li><strong>Immédiatement supprimées</strong> lorsque vous supprimez votre compte — voir la section suivante.</li>
+  <li><strong>Sauvegardes chiffrées</strong> : une copie chiffrée de la base est conservée <strong>90 jours au plus</strong>, pour rétablir le service en cas d'incident technique. Elle ne sert jamais à restaurer un compte supprimé.</li>
   <li><strong>Journal technique</strong> : conservé de façon limitée, à des fins de diagnostic, sans exploitation commerciale.</li>
 </ul>
 
@@ -121,8 +122,11 @@ consultation ne transmet aucune donnée vous concernant.</p>
 onglet Profil, puis <em>Supprimer mon compte</em>.</p>
 <p>La suppression est <strong>immédiate et définitive</strong>. Elle efface en cascade votre
 compte, votre profil, vos offres ou candidatures, vos choix, vos mises en relation, vos
-conversations et vos identifiants de notification. Il n'existe aucune copie de sauvegarde
-permettant de restaurer un compte supprimé.</p>
+conversations et vos identifiants de notification.</p>
+<p>Nos sauvegardes chiffrées, destinées à rétablir le service après un incident technique, sont
+conservées <strong>90 jours au plus</strong> : votre compte peut y figurer jusqu'à cette
+échéance, après quoi elles sont détruites. <strong>Aucun compte supprimé n'en est jamais
+restauré</strong> — elles ne servent qu'à reconstruire le service dans son ensemble.</p>
 <p>Si vous n'avez plus accès à l'application, vous pouvez le demander depuis la page
 <a href="suppression-compte.html">Supprimer mon compte</a>.</p>
 
@@ -143,17 +147,39 @@ dans l'application ; l'effacement également, par la suppression de compte.</p>
   <li>L'application distribuée est signée et son code obfusqué.</li>
 </ul>
 
-<h2>8. Mineurs</h2>
+<h2>8. Classement des offres par intelligence artificielle</h2>
+<p>L'application propose un classement des offres assisté par un modèle d'intelligence
+artificielle. Cette fonction est <strong>désactivée par défaut</strong> : elle ne s'active qu'à
+votre demande, dans vos réglages.</p>
+<p>Lorsqu'elle est active, <strong>tout le calcul se fait sur votre téléphone</strong>. Votre
+profil, les offres consultées, les mesures de similarité et les scores obtenus
+<strong>ne quittent jamais votre téléphone</strong> et ne sont transmis à aucun service, ni au
+nôtre, ni à un tiers.</p>
+<ul>
+  <li>Le seul échange avec Internet est le téléchargement du fichier du modèle, une fois. Il
+      s'agit d'un fichier public identique pour tous les utilisateurs : rien vous concernant n'y
+      est envoyé.</li>
+  <li>Aucune décision automatisée n'en découle. Le classement ne fait que changer l'ordre dans
+      lequel les offres vous sont présentées ; vous gardez la main sur chacune.</li>
+  <li>Les données de travail du modèle sont conservées localement et effacées à la déconnexion
+      comme à la suppression du compte.</li>
+  <li>Désactiver la fonction efface immédiatement ces données de travail.</li>
+</ul>
+<p>Modèle utilisé : <em>granite-embedding-97m-multilingual-r2</em> (IBM, licence Apache 2.0),
+exécuté par ONNX Runtime (Microsoft, licence MIT). Aucune télémétrie n'est embarquée.</p>
+
+<h2>9. Mineurs</h2>
 <p>JobCrush s'adresse à des personnes en recherche d'emploi et n'est pas destinée aux moins de
 15 ans. Aucune donnée n'est collectée sciemment auprès d'un mineur de moins de 15 ans.</p>
 
-<h2>9. Modifications</h2>
+<h2>10. Modifications</h2>
 <p>Cette politique peut évoluer avec l'application. La date de version en haut de page indique la
 dernière mise à jour.</p>
 
 <footer>
   JobCrush — <a href="suppression-compte.html">Supprimer mon compte</a> ·
-  <a href="assistance.html">Aide et contact</a>
+  <a href="assistance.html">Aide et contact</a> ·
+  <a href="conditions-utilisation.html">Conditions d'utilisation</a>
 </footer>
 
 </div>

@@ -1,6 +1,7 @@
 # JobCrush — pages légales
 
 - [Politique de confidentialité](https://sogbap.github.io/jobcrush-legal/)
+- [Conditions d'utilisation](https://sogbap.github.io/jobcrush-legal/conditions-utilisation.html)
 - [Supprimer mon compte](https://sogbap.github.io/jobcrush-legal/suppression-compte.html)
 - [Aide et contact](https://sogbap.github.io/jobcrush-legal/assistance.html)
 
